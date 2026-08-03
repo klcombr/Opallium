@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kyxenpi/Opallium/main/logo.png" alt="Opallium Logo" width="80" style="margin-bottom: 10px;"/>
+<img src="https://raw.githubusercontent.com/klcombr/Opallium/main/logo.png" alt="Opallium Logo" width="80" style="margin-bottom: 10px;"/>
 
 # OPALLIUM
 ### *Script Core • Workspace Minimalista • IDE CSS Viva*
