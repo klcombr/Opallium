@@ -59,8 +59,8 @@ const floatingWindow = document.getElementById("floatingWindow");
 
 document.addEventListener("mousemove", (e) => {
   // Cálculo para o efeito de inclinação (tilt)
-  const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
-  const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+  const xAxis = (window.innerWidth / 2 - e.clientX) / 25;
+  const yAxis = (window.innerHeight / 2 - e.clientY) / 25;
 
   if (floatingWindow) {
     floatingWindow.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg) translateY(${yAxis * -1}px)`;
